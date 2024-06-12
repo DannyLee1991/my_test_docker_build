@@ -1,5 +1,6 @@
 # Use the official Python image from the Docker Hub
-FROM python:3.10-slim
+# FROM python:3.10-slim
+FROM registry.cn-hangzhou.aliyuncs.com/python:3.10-slim
 
 # Set the working directory to /app
 WORKDIR /app
